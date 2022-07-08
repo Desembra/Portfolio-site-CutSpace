@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.68;
+    color: #323232; 
+}
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    // выравнивает лок по центру
+    padding-left: 15px;
+    padding-right: 15px;
+    //добавляем сумму падингов к общему размеру страницы
+    
+    &--fluid {
+        max-width: unset;
+        width: 100%;
+    }
+
+    &--no--padding {
+        padding: 0;
+    }
+}
+
+
